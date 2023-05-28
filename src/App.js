@@ -1,12 +1,11 @@
-import { Header2 } from "./components/Header2";
-import { Routes } from "react-router-dom";
-import "./App.css";
 import { AllRoutes } from "./routes/AllRoutes";
-import { ItemList } from "./Pages";
+import { Header } from "./components";
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      <Header2 />
+      <Header />
       <AllRoutes />
     </div>
   );

@@ -1,8 +1,8 @@
-import React from "react";
-import "./ProductCart.css";
+import "./ProductCard.css";
 
-export const ProductCart = ({ product }) => {
-  const {  name, price, image } = product;
+export const ProductCard = ({product}) => {
+  const {name, price, image} = product;
+
   return (
     <div className="productCard">
       <img src={image} alt={name} />
@@ -12,5 +12,5 @@ export const ProductCart = ({ product }) => {
         <button>Add To Cart</button>
       </div>
     </div>
-  );
-};
+  )
+}

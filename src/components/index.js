@@ -1,5 +1,4 @@
-export { Header2 } from "./Header2";
+export { Header } from "./Header";
 
-export { Footer } from "./Footer";
-export { Card } from "./Card";
-export { ProductCart } from "./ProductCart";
+export { ProductCard } from "./ProductCard";
+export { CartCard } from "./CartCard";
