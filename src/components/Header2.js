@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/Logo.png";
-// import "./Header2.css";
+import "./Header2.css";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 export const Header2 = () => {
